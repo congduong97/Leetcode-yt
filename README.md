@@ -37,3 +37,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Leetcode-yt
+<img width="1431" alt="Screen Shot 2023-07-07 at 11 14 47" src="https://github.com/congduong97/Leetcode-yt/assets/39731881/f3061380-f822-4181-aa1f-14b0e88db428">
+
