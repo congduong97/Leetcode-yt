@@ -1,6 +1,21 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import Head from "next/head";
+import { RecoilRoot } from "recoil";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <RecoilRoot>
+      <Head>
+        <title>Leetcode clone</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Web application that contain leetcode problem and video solution"
+        />
+      </Head>
+      <Component {...pageProps} />
+    </RecoilRoot>
+  );
 }
